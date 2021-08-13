@@ -23,8 +23,9 @@ main {
 }
 
 header h1 {
-  font-size: 70px;
+  font-size: 60px;
   color: #fff;
+  text-shadow: 0 0 20px #6e4c4c;
 }
 
 .ism, .vazin,.boy {
