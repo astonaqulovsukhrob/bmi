@@ -1,0 +1,51 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: beige;
+  background-image: url(../bmw.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 70vh;
+}
+
+header h1 {
+  font-size: 70px;
+  color: #fff;
+}
+
+.ism, .vazin,.boy {
+  outline: none;
+  padding: 8px 15px;
+  border: 2px solid #aaa;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+.submit {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(38, 201, 241);
+  width: 100%;
+  font-size: 25px;
+  outline: none;
+}
+
+.submit:hover {
+  box-shadow: 0 0 10px rgb(78, 33, 33);
+  background-color: aqua;
+}
